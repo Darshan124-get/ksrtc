@@ -1,0 +1,31 @@
+name: map_test
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you want to publish to pub.dev later
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.1.0        # Map plugin
+  latlong2: ^0.9.0           # LatLng helper for maps
+  location: ^5.0.3           # To get user current location
+  geolocator: ^11.0.0
+
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+# (Optional) For more advanced location features later
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/bus_pin.png
+
